@@ -40,6 +40,8 @@ public class AdminloginTest extends BaseClass {
    		String ele = driver.getTitle();
    		if(ele.equalsIgnoreCase("Student Management System")) {
   			System.out.println("login succesfully");
+			  			System.out.println("login succesfully");
+
  			
   		}else {
   			System.out.println("email or password is incorrect");
