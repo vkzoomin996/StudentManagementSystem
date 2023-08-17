@@ -5,8 +5,12 @@ import static org.testng.Assert.fail;
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+<<<<<<< HEAD
 
 
+=======
+ 
+>>>>>>> branch 'master' of https://github.com/vkzoomin996/StudentManagementSystem.git
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -43,6 +47,7 @@ public class AdminloginTest extends BaseClass {
  			
   		}else {
   			System.out.println("email or password is incorrect");
+ 
   		}
   	
 		
