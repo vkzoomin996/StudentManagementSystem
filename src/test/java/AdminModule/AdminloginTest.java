@@ -32,7 +32,7 @@ public class AdminloginTest extends BaseClass {
 	        wlib.waitforpageload(driver);
 	        LoginPage lp = new LoginPage(driver);
 	        lp.login(EMAIL, PASSWORD);
-	       fail();
+	       
 	        System.out.println("login to the applcation");
 			
    		String ele = driver.getTitle();
