@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="11" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-17T19:41:34 IST" name="Suite" finished-at="2023-08-17T19:41:43 IST" duration-ms="9183">
+    <groups>
+      <group name="regression">
+        <method signature="Parent_testcase_01.delete()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" name="delete" class="TestNgPractice.Parent_testcase_01"/>
+        <method signature="Parent_testcase_2.create()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" name="create" class="TestNgPractice.Parent_testcase_2"/>
+        <method signature="Parent_testcase_2.edit()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" name="edit" class="TestNgPractice.Parent_testcase_2"/>
+        <method signature="Parent_testcase_3.edit()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" name="edit" class="TestNgPractice.Parent_testcase_3"/>
+        <method signature="Parent_testcase_3.mmmmmreate()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" name="mmmmmreate" class="TestNgPractice.Parent_testcase_3"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Parent_testcase_01.rename()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" name="rename" class="TestNgPractice.Parent_testcase_01"/>
+        <method signature="Parent_testcase_2.edit()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" name="edit" class="TestNgPractice.Parent_testcase_2"/>
+        <method signature="Parent_testcase_3.edit()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" name="edit" class="TestNgPractice.Parent_testcase_3"/>
+      </group> <!-- smoke -->
+      <group name="update">
+        <method signature="Parent_testcase_01.update()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" name="update" class="TestNgPractice.Parent_testcase_01"/>
+      </group> <!-- update -->
+    </groups>
+    <test started-at="2023-08-17T19:41:34 IST" name="Test" finished-at="2023-08-17T19:41:43 IST" duration-ms="9183">
+      <class name="TestNgPractice.Parent_testcase_2">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:38 IST" name="config_BC" finished-at="2023-08-17T19:41:40 IST" duration-ms="1896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method signature="create()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="create" finished-at="2023-08-17T19:41:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_BM" finished-at="2023-08-17T19:41:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_BM -->
+        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_AM" finished-at="2023-08-17T19:41:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_AM -->
+        <test-method signature="edit()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="edit" finished-at="2023-08-17T19:41:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_BM" finished-at="2023-08-17T19:41:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_BM -->
+        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_AM" finished-at="2023-08-17T19:41:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="config_AC" finished-at="2023-08-17T19:41:40 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- TestNgPractice.Parent_testcase_2 -->
+      <class name="TestNgPractice.Parent_testcase_3">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:40 IST" name="config_BC" finished-at="2023-08-17T19:41:43 IST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_BM" finished-at="2023-08-17T19:41:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_BM -->
+        <test-method signature="edit()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="edit" finished-at="2023-08-17T19:41:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_AM" finished-at="2023-08-17T19:41:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_AM -->
+        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_BM" finished-at="2023-08-17T19:41:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_BM -->
+        <test-method signature="mmmmmreate()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="mmmmmreate" finished-at="2023-08-17T19:41:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mmmmmreate -->
+        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_AM" finished-at="2023-08-17T19:41:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="config_AC" finished-at="2023-08-17T19:41:43 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- TestNgPractice.Parent_testcase_3 -->
+      <class name="TestNgPractice.Parent_testcase_01">
+        <test-method is-config="true" signature="config_BS()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:34 IST" name="config_BS" finished-at="2023-08-17T19:41:34 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:34 IST" name="config_BC" finished-at="2023-08-17T19:41:38 IST" duration-ms="3584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_BM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_BM -->
+        <test-method signature="delete()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="delete" finished-at="2023-08-17T19:41:38 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_AM" finished-at="2023-08-17T19:41:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_AM -->
+        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_BM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_BM -->
+        <test-method signature="rename()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="rename" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rename -->
+        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_AM" finished-at="2023-08-17T19:41:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_AM -->
+        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_BM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_BM -->
+        <test-method signature="update()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="update" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_AM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- congig_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="config_AC" finished-at="2023-08-17T19:41:38 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:43 IST" name="config_AS" finished-at="2023-08-17T19:41:43 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- TestNgPractice.Parent_testcase_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
