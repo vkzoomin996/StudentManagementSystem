@@ -49,8 +49,4 @@ public class AdminloginTest extends BaseClass {
   	
 		
 	}
-
-}	//String EMAIL=flib.readDataFromPropertyFile("email");//student
-//String EMAIL=flib.readDataFromPropertyFile("email");//student
-
-//String EMAIL=flib.readDataFromPropertyFile("userr");//parent
+}
