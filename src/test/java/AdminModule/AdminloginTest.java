@@ -1,7 +1,7 @@
 package AdminModule;
 
 import static org.testng.Assert.fail;
-//
+
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -40,7 +40,9 @@ public class AdminloginTest extends BaseClass {
    		String ele = driver.getTitle();
    		if(ele.equalsIgnoreCase("Student Management System")) {
   			System.out.println("login succesfully");
-			  		//	System.out.println("login succesfully");
+			  		System.out.println("login succesfully");	//String EMAIL=flib.readDataFromPropertyFile("email");//student
+			//String EMAIL=flib.readDataFromPropertyFile("userr");//parent
+			//String EMAIL=flib.readDataFromPropertyFile("user");//teacher
 
  			
   		}else {
