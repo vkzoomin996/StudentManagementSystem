@@ -5,7 +5,7 @@ import static org.testng.Assert.fail;
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-//bookesh
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -26,11 +26,7 @@ public class AdminloginTest extends BaseClass {
 	 public void adminloginTest() throws Throwable {
 		 FileUtility flib= new FileUtility();
 		 String URL=flib.readDataFromPropertyFile("url");
-			//String EMAIL=flib.readDataFromPropertyFile("email");//student
-			//String EMAIL=flib.readDataFromPropertyFile("email");//student
-
-			//String EMAIL=flib.readDataFromPropertyFile("userr");//parent
-			//String EMAIL=flib.readDataFromPropertyFile("user");//teacher
+			 
 			String EMAIL=flib.readDataFromPropertyFile("username");//admin
 			String  PASSWORD=flib.readDataFromPropertyFile("password");
 	        driver.get(URL);
