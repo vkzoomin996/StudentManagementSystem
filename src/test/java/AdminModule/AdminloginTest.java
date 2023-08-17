@@ -24,7 +24,7 @@ public class AdminloginTest extends BaseClass {
 	 @Test
 	 public void adminloginTest() throws Throwable {
 		 FileUtility flib= new FileUtility();
-		 String URL=flib.readDataFromPropertyFile("url");//
+		 String URL=flib.readDataFromPropertyFile("url");//234
 			 
 			String EMAIL=flib.readDataFromPropertyFile("username");//admin
 			String  PASSWORD=flib.readDataFromPropertyFile("password");
