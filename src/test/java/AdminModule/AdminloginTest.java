@@ -26,6 +26,8 @@ public class AdminloginTest extends BaseClass {
 		 FileUtility flib= new FileUtility();
 		 String URL=flib.readDataFromPropertyFile("url");
 			//String EMAIL=flib.readDataFromPropertyFile("email");//student
+			//String EMAIL=flib.readDataFromPropertyFile("email");//student
+
 			//String EMAIL=flib.readDataFromPropertyFile("userr");//parent
 			//String EMAIL=flib.readDataFromPropertyFile("user");//teacher
 			String EMAIL=flib.readDataFromPropertyFile("username");//admin
@@ -34,7 +36,7 @@ public class AdminloginTest extends BaseClass {
 	        wlib.waitforpageload(driver);
 	        LoginPage lp = new LoginPage(driver);
 	        lp.login(EMAIL, PASSWORD);
-	        fail();
+	       fail();
 	        System.out.println("login to the applcation");
 			
    		String ele = driver.getTitle();
