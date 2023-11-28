@@ -1,6 +1,5 @@
 package ParentModule;
-//
-import java.io.FileInputStream;
+ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -16,7 +15,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.Sms.GenericUtility.BaseClass;
@@ -25,15 +28,12 @@ import com.Sms.GenericUtility.WebDriverUtility;
 import com.Sms.ObjectRepositary.DashboardPage;
 import com.Sms.ObjectRepositary.LoginPage;
 import com.Sms.ObjectRepositary.MySonsExamhistoryPage;
+import com.aventstack.extentreports.model.Report;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SonExamHistoryTest  extends BaseClass{
-//	
-	//to
-	//
-	//
-	//
+ 	 
 @Test(groups="system")
 public void sonExamHistoryTest() throws Throwable {
 	 FileUtility flib= new FileUtility();
@@ -46,12 +46,12 @@ public void sonExamHistoryTest() throws Throwable {
         driver.get(URL);
         wlib.waitforpageload(driver);
         LoginPage lp = new LoginPage(driver);
-        lp.login(EMAIL, PASSWORD);
+         lp.login(EMAIL, PASSWORD);
 	String ele = driver.getTitle();
 		if(ele.equalsIgnoreCase("Student Management System")) {
 			System.out.println("login succesfully");
 						System.out.println("login succesfully");
-
+					
 			
 		}else {
 			System.out.println("email or password is incorrect");

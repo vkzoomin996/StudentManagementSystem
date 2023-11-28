@@ -1,148 +1,397 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="11" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[navigate to the application]]>
+    </line>
+    <line>
+      <![CDATA[email address should be entered]]>
+    </line>
+    <line>
+      <![CDATA[password   should be entered]]>
+    </line>
+    <line>
+      <![CDATA[ click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[navigate to the application]]>
+    </line>
+    <line>
+      <![CDATA[email address should be entered]]>
+    </line>
+    <line>
+      <![CDATA[password   should be entered]]>
+    </line>
+    <line>
+      <![CDATA[ click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[navigate to the application]]>
+    </line>
+    <line>
+      <![CDATA[email address should be entered]]>
+    </line>
+    <line>
+      <![CDATA[password   should be entered]]>
+    </line>
+    <line>
+      <![CDATA[ click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[navigate to the application]]>
+    </line>
+    <line>
+      <![CDATA[email address should be entered]]>
+    </line>
+    <line>
+      <![CDATA[password   should be entered]]>
+    </line>
+    <line>
+      <![CDATA[ click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[tc is passed]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[navigate to the application]]>
+    </line>
+    <line>
+      <![CDATA[email address should be entered]]>
+    </line>
+    <line>
+      <![CDATA[password   should be entered]]>
+    </line>
+    <line>
+      <![CDATA[ click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[tc is passed]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[navigate to the application]]>
+    </line>
+    <line>
+      <![CDATA[email address should be entered]]>
+    </line>
+    <line>
+      <![CDATA[password   should be entered]]>
+    </line>
+    <line>
+      <![CDATA[ click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[tc is failed]]>
+    </line>
+    <line>
+      <![CDATA[launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[navigate to the application]]>
+    </line>
+    <line>
+      <![CDATA[email address should be entered]]>
+    </line>
+    <line>
+      <![CDATA[password   should be entered]]>
+    </line>
+    <line>
+      <![CDATA[ click on submit button]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-08-17T19:41:34 IST" name="Suite" finished-at="2023-08-17T19:41:43 IST" duration-ms="9183">
+  <suite started-at="2023-11-23T18:09:51 IST" name="Default suite" finished-at="2023-11-23T18:10:24 IST" duration-ms="32057">
     <groups>
-      <group name="regression">
-        <method signature="Parent_testcase_01.delete()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" name="delete" class="TestNgPractice.Parent_testcase_01"/>
-        <method signature="Parent_testcase_2.create()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" name="create" class="TestNgPractice.Parent_testcase_2"/>
-        <method signature="Parent_testcase_2.edit()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" name="edit" class="TestNgPractice.Parent_testcase_2"/>
-        <method signature="Parent_testcase_3.edit()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" name="edit" class="TestNgPractice.Parent_testcase_3"/>
-        <method signature="Parent_testcase_3.mmmmmreate()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" name="mmmmmreate" class="TestNgPractice.Parent_testcase_3"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="Parent_testcase_01.rename()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" name="rename" class="TestNgPractice.Parent_testcase_01"/>
-        <method signature="Parent_testcase_2.edit()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" name="edit" class="TestNgPractice.Parent_testcase_2"/>
-        <method signature="Parent_testcase_3.edit()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" name="edit" class="TestNgPractice.Parent_testcase_3"/>
-      </group> <!-- smoke -->
-      <group name="update">
-        <method signature="Parent_testcase_01.update()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" name="update" class="TestNgPractice.Parent_testcase_01"/>
-      </group> <!-- update -->
     </groups>
-    <test started-at="2023-08-17T19:41:34 IST" name="Test" finished-at="2023-08-17T19:41:43 IST" duration-ms="9183">
-      <class name="TestNgPractice.Parent_testcase_2">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:38 IST" name="config_BC" finished-at="2023-08-17T19:41:40 IST" duration-ms="1896" status="PASS">
+    <test started-at="2023-11-23T18:09:51 IST" name="Default test" finished-at="2023-11-23T18:10:24 IST" duration-ms="32057">
+      <class name="Test_01">
+        <test-method signature="pub3()[pri:0, instance:Test_01@c88a337]" started-at="2023-11-23T18:09:52 IST" name="pub3" finished-at="2023-11-23T18:09:56 IST" duration-ms="4351" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[navigate to the application]]>
+            </line>
+            <line>
+              <![CDATA[email address should be entered]]>
+            </line>
+            <line>
+              <![CDATA[password   should be entered]]>
+            </line>
+            <line>
+              <![CDATA[ click on submit button]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- config_BC -->
-        <test-method signature="create()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="create" finished-at="2023-08-17T19:41:40 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- pub3 -->
+        <test-method signature="pub4()[pri:0, instance:Test_01@c88a337]" started-at="2023-11-23T18:09:56 IST" name="pub4" finished-at="2023-11-23T18:10:00 IST" duration-ms="4370" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Student Mana4gement System] but found [Student Management System],
+expected [Student Mana4gement System] but found [Student Management System]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Student Mana4gement System] but found [Student Management System],
+expected [Student Mana4gement System] but found [Student Management System]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Test_01.pub4(Test_01.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[navigate to the application]]>
+            </line>
+            <line>
+              <![CDATA[email address should be entered]]>
+            </line>
+            <line>
+              <![CDATA[password   should be entered]]>
+            </line>
+            <line>
+              <![CDATA[ click on submit button]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- create -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_BM" finished-at="2023-08-17T19:41:40 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- pub4 -->
+        <test-method signature="pub5()[pri:0, instance:Test_01@c88a337]" started-at="2023-11-23T18:10:00 IST" name="pub5" finished-at="2023-11-23T18:10:06 IST" duration-ms="5862" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [null] but found [Student Management System]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [null] but found [Student Management System]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotSame(Assert.java:1033)
+at org.testng.Assert.assertNull(Assert.java:965)
+at org.testng.Assert.assertNull(Assert.java:953)
+at Test_01.pub5(Test_01.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[navigate to the application]]>
+            </line>
+            <line>
+              <![CDATA[email address should be entered]]>
+            </line>
+            <line>
+              <![CDATA[password   should be entered]]>
+            </line>
+            <line>
+              <![CDATA[ click on submit button]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_AM" finished-at="2023-08-17T19:41:40 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- pub5 -->
+        <test-method signature="pub6()[pri:0, instance:Test_01@c88a337]" started-at="2023-11-23T18:10:06 IST" name="pub6" finished-at="2023-11-23T18:10:12 IST" duration-ms="5393" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[navigate to the application]]>
+            </line>
+            <line>
+              <![CDATA[email address should be entered]]>
+            </line>
+            <line>
+              <![CDATA[password   should be entered]]>
+            </line>
+            <line>
+              <![CDATA[ click on submit button]]>
+            </line>
+            <line>
+              <![CDATA[tc is passed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- congig_AM -->
-        <test-method signature="edit()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="edit" finished-at="2023-08-17T19:41:40 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- pub6 -->
+        <test-method signature="pub7()[pri:0, instance:Test_01@c88a337]" started-at="2023-11-23T18:10:12 IST" name="pub7" finished-at="2023-11-23T18:10:16 IST" duration-ms="4227" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[navigate to the application]]>
+            </line>
+            <line>
+              <![CDATA[email address should be entered]]>
+            </line>
+            <line>
+              <![CDATA[password   should be entered]]>
+            </line>
+            <line>
+              <![CDATA[ click on submit button]]>
+            </line>
+            <line>
+              <![CDATA[tc is passed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- edit -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_BM" finished-at="2023-08-17T19:41:40 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- pub7 -->
+        <test-method signature="pub8()[pri:0, instance:Test_01@c88a337]" started-at="2023-11-23T18:10:16 IST" name="pub8" finished-at="2023-11-23T18:10:19 IST" duration-ms="3402" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [null] but found [Student Management System]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [null] but found [Student Management System]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at Test_01.pub8(Test_01.java:186)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[navigate to the application]]>
+            </line>
+            <line>
+              <![CDATA[email address should be entered]]>
+            </line>
+            <line>
+              <![CDATA[password   should be entered]]>
+            </line>
+            <line>
+              <![CDATA[ click on submit button]]>
+            </line>
+            <line>
+              <![CDATA[tc is failed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="congig_AM" finished-at="2023-08-17T19:41:40 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- pub8 -->
+        <test-method signature="publ()[pri:0, instance:Test_01@c88a337]" started-at="2023-11-23T18:10:19 IST" name="publ" finished-at="2023-11-23T18:10:24 IST" duration-ms="4365" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[navigate to the application]]>
+            </line>
+            <line>
+              <![CDATA[email address should be entered]]>
+            </line>
+            <line>
+              <![CDATA[password   should be entered]]>
+            </line>
+            <line>
+              <![CDATA[ click on submit button]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- congig_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:TestNgPractice.Parent_testcase_2@6392827e]" started-at="2023-08-17T19:41:40 IST" name="config_AC" finished-at="2023-08-17T19:41:40 IST" duration-ms="173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-      </class> <!-- TestNgPractice.Parent_testcase_2 -->
-      <class name="TestNgPractice.Parent_testcase_3">
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:40 IST" name="config_BC" finished-at="2023-08-17T19:41:43 IST" duration-ms="3067" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_BM" finished-at="2023-08-17T19:41:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method signature="edit()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="edit" finished-at="2023-08-17T19:41:43 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edit -->
-        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_AM" finished-at="2023-08-17T19:41:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_AM -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_BM" finished-at="2023-08-17T19:41:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method signature="mmmmmreate()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="mmmmmreate" finished-at="2023-08-17T19:41:43 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mmmmmreate -->
-        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="congig_AM" finished-at="2023-08-17T19:41:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:TestNgPractice.Parent_testcase_3@2ed2d9cb]" started-at="2023-08-17T19:41:43 IST" name="config_AC" finished-at="2023-08-17T19:41:43 IST" duration-ms="154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-      </class> <!-- TestNgPractice.Parent_testcase_3 -->
-      <class name="TestNgPractice.Parent_testcase_01">
-        <test-method is-config="true" signature="config_BS()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:34 IST" name="config_BS" finished-at="2023-08-17T19:41:34 IST" duration-ms="246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BS -->
-        <test-method is-config="true" signature="config_BC()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:34 IST" name="config_BC" finished-at="2023-08-17T19:41:38 IST" duration-ms="3584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_BC -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_BM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method signature="delete()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="delete" finished-at="2023-08-17T19:41:38 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete -->
-        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_AM" finished-at="2023-08-17T19:41:38 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_AM -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_BM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method signature="rename()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="rename" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rename -->
-        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_AM" finished-at="2023-08-17T19:41:38 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_AM -->
-        <test-method is-config="true" signature="congig_BM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_BM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_BM -->
-        <test-method signature="update()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="update" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- update -->
-        <test-method is-config="true" signature="congig_AM()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="congig_AM" finished-at="2023-08-17T19:41:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- congig_AM -->
-        <test-method is-config="true" signature="config_AC()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:38 IST" name="config_AC" finished-at="2023-08-17T19:41:38 IST" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AC -->
-        <test-method is-config="true" signature="config_AS()[pri:0, instance:TestNgPractice.Parent_testcase_01@306e95ec]" started-at="2023-08-17T19:41:43 IST" name="config_AS" finished-at="2023-08-17T19:41:43 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- config_AS -->
-      </class> <!-- TestNgPractice.Parent_testcase_01 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- publ -->
+      </class> <!-- Test_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

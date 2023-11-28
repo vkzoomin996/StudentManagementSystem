@@ -2,7 +2,7 @@
 
 import java.io.File;
 import java.io.IOException;
- 
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -10,19 +10,20 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
- import com.aventstack.extentreports.reporter.ExtentSparkReporter;
- import com.aventstack.extentreports.reporter.configuration.Theme;
- 
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+ @Listeners(com.Sms.GenericUtility.ListenerImpClass.class)
 public class ListenerImpClass  implements ITestListener {
 	ExtentReports report;
 	ExtentTest test;
 
 	@Override
-	public void onTestStart(ITestResult result) {
+	public void onTestStart(ITestResult result   ) {
 		// Executing starts from here
 		String methodname = result.getMethod().getMethodName();
 	      test=report.createTest(methodname);

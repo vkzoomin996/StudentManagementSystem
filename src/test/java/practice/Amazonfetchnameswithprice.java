@@ -23,12 +23,12 @@ public class Amazonfetchnameswithprice {
 	driver.findElement(By.id("nav-search-submit-button")).click();
 	List<WebElement> nameofproduct = driver.findElements(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']//h2"));
 		List<WebElement> prices = driver.findElements(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']//span[@class='a-price']"));
-	for(int i=0; i<=nameofproduct.size();i++ ) {
+	
+		for(int i=0; i<=nameofproduct.size();i++ ) {
   			System.out.println(nameofproduct.get(i).getText()+" "+prices.get(1).getText());
 		}
 	driver.close();
 	}
-
 	
 	
 }

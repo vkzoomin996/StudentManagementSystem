@@ -24,15 +24,15 @@ public class AdminloginTest extends BaseClass {
 	 @Test
 	 public void adminloginTest() throws Throwable {
 		 FileUtility flib= new FileUtility();
-		 String URL=flib.readDataFromPropertyFile("url");//234
-			 
+ 		 String URL=flib.readDataFromPropertyFile("url");
+ 			 
 			String EMAIL=flib.readDataFromPropertyFile("username");//admin
 			String  PASSWORD=flib.readDataFromPropertyFile("password");
 	        driver.get(URL);
 	        wlib.waitforpageload(driver);
 	        LoginPage lp = new LoginPage(driver);
 	        lp.login(EMAIL, PASSWORD);
-	       fail();
+	       
 	        System.out.println("login to the applcation");
 			
    		String ele = driver.getTitle();

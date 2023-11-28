@@ -12,9 +12,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Cricketxpath {
 	public static void main(String[] args) throws Throwable {
- 	
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver= new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");
+ 		WebDriver driver= new ChromeDriver();
+		//WebDriverManager.chromedriver().setup();
+		//WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver.get("https://www.icc-cricket.com/rankings/mens/team-rankings/t20i");

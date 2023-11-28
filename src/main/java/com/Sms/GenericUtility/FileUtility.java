@@ -1,7 +1,6 @@
 package com.Sms.GenericUtility;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 
 public class FileUtility {
@@ -18,7 +17,7 @@ public class FileUtility {
 		FileInputStream fis=new FileInputStream(IPathConstants.Filepath);
 		Properties pobj =new Properties();
 		pobj.load(fis);
-		
+ 		
 		String value=pobj.getProperty(key);
  		return value;
 		

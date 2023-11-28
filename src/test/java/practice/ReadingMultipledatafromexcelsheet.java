@@ -19,7 +19,8 @@ public class ReadingMultipledatafromexcelsheet {
 		{
 			for(int j=0; j<lastcol; j++)
 			{
-				sh.getRow(i).getCell(j).getStringCellValue();
+				
+				System.out.println(sh.getRow(i).getCell(j).getStringCellValue());
 			}
 		}
 		

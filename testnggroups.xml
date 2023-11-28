@@ -5,10 +5,12 @@
  <run>
  <include name="smoke">
  </include>
- </run></groups>
+ </run>
+ </groups>
    <test thread-count="1" parallel="tests" name="Test">
     <classes>
            <class name="TestNgPractice.Parent_testcase_01">
+           
 <methods>
 <include name="delete">
 </include></methods>

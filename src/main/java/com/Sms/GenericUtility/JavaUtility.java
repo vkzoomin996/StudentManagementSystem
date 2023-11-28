@@ -4,6 +4,9 @@ package com.Sms.GenericUtility;
 import java.util.Date;
 import java.util.Random;
 
+import org.apache.commons.lang3.RandomStringUtils;
+import org.testng.annotations.Test;
+
 public class JavaUtility {
 	/**
 	 * this method id used to get random number
@@ -38,12 +41,26 @@ public class JavaUtility {
 		return systemDateFormat;
 	}
 
+	@Test
+	public void generateRandomchar() {
+		String charrandom = RandomStringUtils.randomAlphabetic(10);
+		System.out.println(charrandom);
+	}
+
+
+@Test
+
+public void convertnumintoString() {
+	int num=12345;
+	String str=String.valueOf(num);
+	System.out.println(str);
+ 
+	
 }
 
 
 
-
-
+}
 
 
 

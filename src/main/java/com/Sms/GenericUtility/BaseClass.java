@@ -1,6 +1,5 @@
-package com.Sms.GenericUtility;
 
-import java.sql.SQLException;
+package com.Sms.GenericUtility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,9 +13,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
-import com.Sms.ObjectRepositary.HomePage;
-import com.Sms.ObjectRepositary.LoginPage;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
@@ -25,14 +21,15 @@ public class BaseClass {
 	public FileUtility flib= new FileUtility();
 	public JavaUtility jlib =new JavaUtility();
 	public WebDriverUtility wlib = new WebDriverUtility();
-	public  WebDriver driver;
-	public static WebDriver sdriver;
+	public static  WebDriver driver;
+	public static WebDriver sdriver; 
 	
 	@BeforeSuite(alwaysRun=true)
 	public void config_BS() throws Throwable {
 		dlib.connectionToDB();
 		System.out.println("connection to the DB");
 	}
+	@Parameters("BROWSER")
  	@BeforeClass(alwaysRun=true )
 	public void config_BC() throws Throwable
 	{

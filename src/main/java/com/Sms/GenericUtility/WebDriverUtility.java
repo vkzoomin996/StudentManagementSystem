@@ -20,8 +20,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.mysql.cj.jdbc.Driver;
-
 public class WebDriverUtility {
 	/**
 	 * This method is used to maximize the window
@@ -47,8 +45,12 @@ public class WebDriverUtility {
 	 * 
 	 */
 	public void waitUntilElementtobevisible(WebDriver diver, WebElement element) {
-		WebDriverWait  wait= new WebDriverWait(diver, 10);
+		WebDriverWait  wait= WebDriverWait(diver, 10);
 		wait.until(ExpectedConditions.visibilityOf(element));
+	}
+	public WebDriverWait WebDriverWait(WebDriver diver, int i) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	/**
 	 * this method is used for to handle dropdown using index
