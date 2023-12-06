@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
  		String[] ss = s.split("[a-z]+");
  		System.out.println(Arrays.toString(ss));
   			for (int j = ss.length-1; j>= 0; j--) {
-				//System.out.println(ss[j]+",");
+				System.out.print(ss[j]+",");
 			}
 		}
 			
